@@ -1,0 +1,19 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "https://github.com/suffering-git/vscode_themes/raw/refs/heads/main/vscode-zennish-theme-1.0.0.vsix",
+        "https://github.com/suffering-git/vscode_themes/raw/refs/heads/main/vscode-cobaltish-theme-1.0.0.vsix"
+      ],
+      "settings": {
+        "workbench.colorTheme": "cobaltish-theme",
+        "editor.tokenColorCustomizations": {
+          "[cobaltish-theme]": {
+            "comments": "#747C84",
+            "strings": "#FF0000"
+          }
+        }
+      }
+    }
+  }
+}
