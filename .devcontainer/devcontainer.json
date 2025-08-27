@@ -5,9 +5,9 @@
         "https://github.com/suffering-git/vscode_themes/raw/refs/heads/main/cobaltish-theme-1.0.1.vsix"
       ],
       "settings": {
-        "workbench.colorTheme": "cobaltish-theme",
+        "workbench.colorTheme": "Cobaltish Theme",
         "editor.tokenColorCustomizations": {
-          "[cobaltish-theme]": {
+          "[Cobaltish Theme]": {
             "comments": "#747C84",
             "strings": "#FF0000"
           }
