@@ -11,10 +11,6 @@ else
     echo "Custom theme .vsix file not found at $THEME_VSIX_PATH. Skipping installation."
 fi
 
-# Install Claude CLI (only if not already installed)
-if ! command -v claude &> /dev/null; then
-    echo "Installing Claude CLI..."
-    curl -sSL https://claude.ai/install.sh | bash
-else
-    echo "Claude CLI already installed"
-fi
+# Install Claude CLI
+echo "Installing Claude CLI..."
+npm install -g @anthropic-ai/claude-code
