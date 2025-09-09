@@ -14,3 +14,14 @@ fi
 # Install Claude CLI
 echo "Installing Claude CLI..."
 npm install -g @anthropic-ai/claude-code
+
+# Install VS Code extensions
+EXTENSIONS=(
+    "anthropic.claude-code"
+    # add more extensions here
+)
+echo "Installing VS Code extensions..."
+for extension in "${EXTENSIONS[@]}"; do
+    echo "Installing $extension..."
+    code --install-extension "$extension" --force
+done
