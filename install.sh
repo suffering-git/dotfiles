@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Install Claude CLI
-echo "Installing Claude CLI..."
-npm install -g @anthropic-ai/claude-code
+# echo "Installing Claude CLI..."
+# npm install -g @anthropic-ai/claude-code
 
-
+echo "Installing Gemini CLI..."
+npm install -g @google/gemini-cli
